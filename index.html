@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+   
+    <title>Pokedex Joss</title>
+</head>
+<body>
+        <header>
+            <img src="./images/pokemonLetra.png" alt="LetraLogo" class="Logo" >
+            <h1 class="tituloPractica">Pokédex </h1><br>
+        </header>
+
+    
+
+    </div>
+        <!--Busqueda Pokemon--> 
+        <section class="buscarPokemon">
+
+            <div class="backImage">
+                <img src="./images/pokeball.png" alt="Pokemon" id="imgPoke" ><br>
+            </div>
+            
+            <div class="busquedaPoke"> 
+                <br>
+                <input type="text"  placeholder="Nombre o ID del pokemon" id="input">
+                <button type="button"  id="search-button">Buscar Pokemon</button>
+            </div>
+        </section>
+
+        <!--nombre y tipo de pokemon-->
+        <section class="datosPokemon"> 
+            <h2 id="pokemon-name">NombrePokemon</h2>
+            <p id="pokemon-type"></p>
+        </section>
+
+        <!--caracteristicas pokemon ID, ALTURA, PESO-->
+        <section class="FeaturesPokemon">
+            <h3>Características</h3>
+            <div class="stats">
+                <div class="TextoHorizontal">
+                    <p class="space">ID</p>
+                    <p class="space">Altura</p>
+                    <p class="space">Peso</p>
+                </div>
+                <div class="TextoHorizontal">
+                    <p class="space2" id="pokemon-id">###</p>
+                    <p class="space2" id="pokemon-height">##</p>
+                    <p class="space2" id="pokemon-weight">##</p>
+                </div>
+            </div>
+        </section>
+
+         <!--estadisticas pokemon -->
+        <section class="stadisticsPokemon">
+            <h3>Estadísticas</h3>
+            <div class="stats">
+                <div class="TextoHorizontal">
+                    <p class="space">HP</p>
+                    <p class="space">ATK</p>
+                    <p class="space">DEF</p>
+                    <p class="space">SATK</p>
+                    <p class="space">SDEF</p>
+                    <p class="space">SPD</p>
+                </div>
+
+                <div class="TextoHorizontal">
+                    <p class="space3" id="hp">#</p>
+                    <p class="space3" id="atk">#</p>
+                    <p class="space3" id="def">#</p>
+                    <p class="space3"id="satk">#</p> 
+                    <p class="space3"id="sdef">#</p>  
+                    <p class="space3"id="spd">#</p>
+                </div>
+            </div>
+        </section>
+
+         <!--Lista movimientos pokemon-->
+        <section class="movesPoke">
+            <h3 class="tituloBox">Movimientos</h3>
+            <div class="moves">
+                <ul class="movesList" id="moves-list"></ul>
+            </div>
+        </section>                     
+ 
+
+    <footer>
+        <p>Practica de pokedex para LaunchX</p>
+    </footer>
+
+    <script src="pokedex.js" type="text/javascript"></script>
+</body>
+</html>

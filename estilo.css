@@ -1,0 +1,223 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+body{
+    
+    background: linear-gradient(to bottom,#4f4fdb, #ff00ff);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.busquedaPoke{
+
+    background-color: rgb(241, 45, 166);
+    height: 80px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center; /*lo mueve al centro horizontal*/
+
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+#input
+{
+    margin: 10px;
+    padding: 10px;
+    border: black 1px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+#search-button
+{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 8px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #7b16ce;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+#search-button:hover
+{
+    color: #e6e1f5;
+    background-color: #080608;
+}
+
+.backImage{
+    
+    margin: 110px 10px 20px 160px; /*top, right, bottom , left*/
+    background-color: beige;
+    height: 250px;
+    width: 300px;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+}
+#imgPoke
+{   
+    height: 230px;
+    width: 230px;
+    margin-left: 20px;
+}
+
+.datosPokemon
+{
+    padding: 10px;
+    margin: 35px 10px 10px 175px;/*top, right, bottom , left*/
+    background-color: beige;
+    border-radius: 15px;
+    width: 230px;
+    height: 90px;
+    font-family: fantasy;
+    letter-spacing: 1.5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; /*lo mueve al centro horizontal*/
+    flex-direction: column;
+}
+
+.FeaturesPokemon
+{   
+    padding: 10px;
+    margin: 35px 10px 20px 170px;/*top, right, bottom , left*/
+    background-color: beige;
+    border-radius: 15px;
+    width: 230px;
+    height: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+    align-items: center; /*alineacion vertical*/
+    justify-content: center; /*alineacion horizontal*/
+}
+
+.stadisticsPokemon
+{
+    padding: 10px;
+    background-color: beige;
+    border-radius: 15px;
+    width: 380px;
+    height: 120px;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+    align-items: center; /*alineacion vertical*/
+    justify-content: center; /*alineacion horizontal*/
+}
+
+
+.TextoHorizontal{
+    padding: 5px;
+    display: flex;
+    justify-items: center;
+}
+
+.space
+{
+    color: rgb(197, 20, 88);
+    font-weight: bold;
+    margin: 0px 10px 3px 10px;/*top, right, bottom , left*/
+}
+.space2
+{
+    margin: 0px 23px 3px 10px;/*top, right, bottom , left*/
+}
+.space3
+{
+    margin: 0px 22px 3px 12px;/*top, right, bottom , left*/
+}
+
+.movesPoke
+{
+    padding: 10px;
+    background-color: beige;
+    border-radius: 15px;
+    width: 380px;
+    height: 300px;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    
+   
+}
+
+.moves { 
+    margin: 3px 25px 3px 70px;/*top, right, bottom , left*/
+
+}
+
+.movesList {
+    height: 200px;
+    width: 200px;
+    overflow-y: scroll;
+}
+
+.movesList::-webkit-scrollbar {
+    width: 10px;
+    background: #a7abaf;
+    border-radius: 10px;
+}
+
+.movesList::-webkit-scrollbar-thumb {
+   background:#080608;
+    border-radius: 10px;
+}
+
+.tituloBox
+{
+    margin: 20px 5px 3px 110px;/*top, right, bottom , left*/
+}
+
+.tituloPractica
+{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 15px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+footer{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.Logo
+{
+    width: 350px;
+    height: 150px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
